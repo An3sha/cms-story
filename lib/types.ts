@@ -5,6 +5,8 @@ export interface Story {
   episodes: Episode[];
   status: 'draft' | 'in_review' | 'reviewed';
   review_progress: number;
+    // feedback: string[];
+  // highlights?: Highlight[];
 }
 
 export interface Episode {
@@ -13,7 +15,7 @@ export interface Episode {
   episode_name: string;
   episode_description: string;
   episode_number: number;
-  status: 'pending' | 'reviewed';
+  status: string;
   feedback: string[];
   highlights?: Highlight[];
 }
