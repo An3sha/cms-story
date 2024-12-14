@@ -2,7 +2,6 @@
 
 A modern, responsive Content Management System for managing stories and episodes with a review workflow. Built with Next.js, TypeScript, and Tailwind CSS.
 
-![Story CMS]
 ## Demo
 
 - <img src="./images/home.png" width="30%">
