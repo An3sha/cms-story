@@ -36,7 +36,7 @@ export function StoryCard({ story }: StoryCardProps) {
           <EpisodeForm storyId={story.id} onCancel={() => setIsAddingEpisode(false)} />
         )}
 
-        <EpisodeList episodes={story.episodes} />
+        <EpisodeList episodes={story.episodes} storyId={story.id} />
 
         <div className="flex space-x-4">
           <Button
